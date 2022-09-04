@@ -442,3 +442,17 @@ By looking at the Microsoft Excel sheet " All Stock Analysis" we can conclude th
 
 *Changes after Refactoring:*
 Aftre Refactoring, VBA running time changed significantly. Before the Refactoring, the analysis of 2017 took around 1.6 second, and after Refactoring, the same analysis took 0.26 second (Please see below)![VBA_Challenge_2017](https://user-images.githubusercontent.com/109055148/188336960-c2feb1d9-ae5c-4201-9337-49245e0dabc0.png)
+Respectively 2018 analysis decreased from 1.2 seconds to 0.277 second (Please see the below)
+![VBA_Challenge_2018](https://user-images.githubusercontent.com/109055148/188337245-86eb9bb3-87ca-46ec-809a-1320542223a2.png)
+
+# Summary:
+*advantages and disadvantages of refactoring code in general*
+Advantage: 
+1. Organize and clean macros and eventually macros run significantly faster
+2. Makes macros run more efficicenlty by taking less steps
+3. improve the logic of the code to make it easier to read
+Disadvantage: Refactoring might reuqire additional information
+
+*Advantages and Disadvantages of the original and refactored VBA script:*
+
+The biggest advantage that occurred by refactoring the VBA script was an decrease in the total macro run time.Originally for the year 2017 the code ran in 1.6 seconds after refactoring the code fro 2017 ran for 0.26 seconds. The same outcomes appeared on the 2018 analysis
